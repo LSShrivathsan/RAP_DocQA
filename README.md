@@ -37,11 +37,11 @@ Gradio will display a URL to access the UI in your browser.
 ## Architecture & Design Decisions
 
 ## System Components
-Component	        Technology
-Embedding Model	  Qwen/Qwen3-Embedding-0.6B
-LLM	              Qwen/Qwen-7B-Chat
-Index	            faiss.IndexFlatL2
-UI	              gradio
+- Component	        Technology
+- Embedding Model	  Qwen/Qwen3-Embedding-0.6B
+- LLM	              Qwen/Qwen-7B-Chat
+- Index	            faiss.IndexFlatL2
+- UI	              gradio
 
 ## Architectural Flow
 Document Upload: Users upload files through Gradio UI
@@ -96,10 +96,7 @@ VRAM: ~10–14GB for model in float16
 Inference Speed : 2s - 15s  
 
 ## File Support
-Format	Parser
-
-.pdf	  PyPDF2
-
-.docx	  python-docx
-
-.txt	  UTF-8 decoding
+- Format	Parser
+- .pdf	  PyPDF2
+- .docx	  python-docx
+- .txt	  UTF-8 decoding
