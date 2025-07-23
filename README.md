@@ -19,15 +19,19 @@ This is a Document Question Answering (DocQA) system built with Gradio and the Q
 
 ### 1. Clone the repository
 git clone https://github.com/LSShrivathsan/RAP_DocQA.git
+
 cd RAP_DocQA
 
 ### 2. Create environment and install dependencies
 python -m venv venv
+
 source venv/bin/activate     # Windows: venv\Scripts\activate
+
 pip install -r requirements.txt
 
 ### 3. Run the application
 python app.py
+
 Gradio will display a URL to access the UI in your browser.
 
 ## Architecture & Design Decisions
@@ -93,6 +97,9 @@ Inference Speed : 2s - 15s
 
 ## File Support
 Format	Parser
+
 .pdf	  PyPDF2
+
 .docx	  python-docx
+
 .txt	  UTF-8 decoding
