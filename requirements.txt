@@ -1,0 +1,7 @@
+torch
+transformers
+faiss-cpu
+numpy
+gradio
+PyPDF2
+python-docx
