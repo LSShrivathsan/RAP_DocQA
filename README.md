@@ -1,4 +1,4 @@
-# Document Q&A System
+# Document Q&A Chatbot
 
 This is a Document Question Answering (DocQA) system built with Gradio and the Qwen LLMs. It enables users to upload documents (PDF, DOCX, TXT), semantically index them, and ask questions based on the content. The system uses RAG and embedding-based retrieval combined with a generative LLM to provide context-aware answers.
 
